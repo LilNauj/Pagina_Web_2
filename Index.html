@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo CSS Embebido</title>
+    <style>
+        body {
+            background-color: brown;
+            font-family: Arial, sans-serif;
+        }
+
+        div {
+            margin: 20px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .caja1 {
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        .caja2 {
+            background-color: lightgray;
+            border: 2px dashed gold;
+            color: green;
+        }
+
+        .caja3 {
+            background-color: magenta;
+            color: white;
+            width: 60%;
+            height: 200px;
+            overflow: auto; /* Para que aparezca scroll si el texto es largo */
+        }
+
+        h3 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja1">
+        <h3>bienvenidos al lenguaje en cascada o de maqueta <span style="color: lightblue;">CSS</span></h3>
+        <p>párrafo hijo dentro de div...</p>
+        <p style="color: yellow;">este es un código css embebido</p>
+    </div>
+
+    <div class="caja2">
+        <h3>bienvenidos al lenguaje en cascada o de maqueta <span style="color: green;">CSS</span></h3>
+        <p>párrafo hijo dentro de div...</p>
+        <p style="color: orange;">este es otro código css embebido</p>
+    </div>
+
+    <div class="caja3">
+        <h3>bienvenidos al lenguaje en cascada o de maqueta <span style="color: fuchsia;">CSS</span></h3>
+        <p>párrafo hijo dentro de div...</p>
+        <p>
+            En un pueblito no muy lejano, vivía una mamá cerdita junto con sus tres cerditos. 
+            Todos eran muy felices hasta que un día la mamá cerdita les dijo: 
+            —Hijitos, ustedes ya han crecido, es tiempo de que sean cerditos adultos y vivan por sí mismos...
+        </p>
+    </div>
+</body>
+</html>

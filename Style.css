@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: cyan; 
+    color: #000; 
+}
+
+
+div {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.caja1 {
+    background: dodgerblue;
+    color: white;
+}
+
+.caja2 {
+    background: lightgray;
+    border: 2px dashed gold;
+    color: green;
+}
+
+
+.caja3 {
+    background: magenta;
+    color: white;
+    height: 220px;
+    overflow: auto;
+}
+
+/* Encabezados */
+h3 {
+    margin-top: 0;
+    font-weight: bold;
+}
